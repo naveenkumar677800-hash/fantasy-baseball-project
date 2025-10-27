@@ -1,0 +1,30 @@
+Scenario C – Bug Fix: Draft selection adds a player but total points do not update.
+
+1. Reproduce the issue:
+   - Start a new draft.
+   - Draft a player and observe that the player's data appears, but the team's total points remain the same.
+
+2. Investigate the flow:
+   - Confirm that the backend /team API recalculates points after each draft.
+   - Check if the frontend calls the updated API or recalculates points in memory.
+   - Inspect console logs and network requests to verify data updates.
+
+3. Identify possible causes:
+   - The frontend adds the player locally but does not trigger a recalculation.
+   - The backend endpoint returns stale data because points are cached or not recomputed.
+   - The 'points' field is missing from the player object in the UI state.
+
+4. Apply the fix:
+   - On the frontend, recalculate points whenever the team array changes or fetch the updated team data after drafting.
+   - Example (React):
+     useEffect(() => {
+       if (team.length > 0) recalcTotalPoints();
+     }, [team]);
+
+   - On the backend, ensure that points are recalculated before sending the team response.
+
+5. Verify:
+   - Draft a player and confirm that the total points now update immediately.
+   - Check that autodraft and removals also recalculate points correctly.
+
+Result: Total points now update dynamically after each draft selection.
