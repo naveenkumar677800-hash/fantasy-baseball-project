@@ -1,0 +1,277 @@
+[
+  {
+    "id": "1",
+    "name": "Mike Trout",
+    "position": "OF",
+    "team": "LAA",
+    "stats": {
+      "battingAverage": 0.283,
+      "homeRuns": 40,
+      "rbi": 104,
+      "stolenBases": 20
+    },
+    "projectedPoints": 350,
+    "isDrafted": false
+  },
+  {
+    "id": "2",
+    "name": "Gerrit Cole",
+    "position": "P",
+    "team": "NYY",
+    "stats": {
+      "era": 2.63,
+      "strikeouts": 257,
+      "wins": 16
+    },
+    "projectedPoints": 320,
+    "isDrafted": false
+  },
+  {
+    "id": "3",
+    "name": "Mookie Betts",
+    "position": "OF",
+    "team": "LAD",
+    "stats": {
+      "battingAverage": 0.289,
+      "homeRuns": 35,
+      "rbi": 82,
+      "stolenBases": 16
+    },
+    "projectedPoints": 325,
+    "isDrafted": false
+  },
+  {
+    "id": "4",
+    "name": "Jacob deGrom",
+    "position": "P",
+    "team": "TEX",
+    "stats": {
+      "era": 2.15,
+      "strikeouts": 221,
+      "wins": 14
+    },
+    "projectedPoints": 310,
+    "isDrafted": false
+  },
+  {
+    "id": "5",
+    "name": "Ronald Acuña Jr.",
+    "position": "OF",
+    "team": "ATL",
+    "stats": {
+      "battingAverage": 0.266,
+      "homeRuns": 41,
+      "rbi": 101,
+      "stolenBases": 73
+    },
+    "projectedPoints": 415,
+    "isDrafted": false
+  },
+  {
+    "id": "6",
+    "name": "J.T. Realmuto",
+    "position": "C",
+    "team": "PHI",
+    "stats": {
+      "battingAverage": 0.273,
+      "homeRuns": 20,
+      "rbi": 73,
+      "stolenBases": 21
+    },
+    "projectedPoints": 240,
+    "isDrafted": false
+  },
+  {
+    "id": "7",
+    "name": "Freddie Freeman",
+    "position": "IF",
+    "team": "LAD",
+    "stats": {
+      "battingAverage": 0.331,
+      "homeRuns": 29,
+      "rbi": 102,
+      "stolenBases": 13
+    },
+    "projectedPoints": 305,
+    "isDrafted": false
+  },
+  {
+    "id": "8",
+    "name": "Sandy Alcantara",
+    "position": "P",
+    "team": "MIA",
+    "stats": {
+      "era": 2.28,
+      "strikeouts": 201,
+      "wins": 14
+    },
+    "projectedPoints": 275,
+    "isDrafted": false
+  },
+  {
+    "id": "9",
+    "name": "Aaron Judge",
+    "position": "OF",
+    "team": "NYY",
+    "stats": {
+      "battingAverage": 0.311,
+      "homeRuns": 62,
+      "rbi": 131,
+      "stolenBases": 16
+    },
+    "projectedPoints": 430,
+    "isDrafted": false
+  },
+  {
+    "id": "10",
+    "name": "Jose Ramirez",
+    "position": "IF",
+    "team": "CLE",
+    "stats": {
+      "battingAverage": 0.280,
+      "homeRuns": 29,
+      "rbi": 126,
+      "stolenBases": 20
+    },
+    "projectedPoints": 310,
+    "isDrafted": false
+  },
+  {
+    "id": "11",
+    "name": "Shohei Ohtani",
+    "position": "P",
+    "team": "LAD",
+    "stats": {
+      "era": 3.14,
+      "strikeouts": 219,
+      "wins": 15
+    },
+    "projectedPoints": 340,
+    "isDrafted": false
+  },
+  {
+    "id": "12",
+    "name": "Will Smith",
+    "position": "C",
+    "team": "LAD",
+    "stats": {
+      "battingAverage": 0.260,
+      "homeRuns": 19,
+      "rbi": 76,
+      "stolenBases": 5
+    },
+    "projectedPoints": 215,
+    "isDrafted": false
+  },
+  {
+    "id": "13",
+    "name": "Trea Turner",
+    "position": "IF",
+    "team": "PHI",
+    "stats": {
+      "battingAverage": 0.298,
+      "homeRuns": 26,
+      "rbi": 100,
+      "stolenBases": 30
+    },
+    "projectedPoints": 318,
+    "isDrafted": false
+  },
+  {
+    "id": "14",
+    "name": "Kyle Tucker",
+    "position": "OF",
+    "team": "HOU",
+    "stats": {
+      "battingAverage": 0.284,
+      "homeRuns": 29,
+      "rbi": 107,
+      "stolenBases": 30
+    },
+    "projectedPoints": 331,
+    "isDrafted": false
+  },
+  {
+    "id": "15",
+    "name": "Spencer Strider",
+    "position": "P",
+    "team": "ATL",
+    "stats": {
+      "era": 3.86,
+      "strikeouts": 281,
+      "wins": 20
+    },
+    "projectedPoints": 373,
+    "isDrafted": false
+  },
+  {
+    "id": "16",
+    "name": "Rafael Devers",
+    "position": "IF",
+    "team": "BOS",
+    "stats": {
+      "battingAverage": 0.295,
+      "homeRuns": 33,
+      "rbi": 115,
+      "stolenBases": 3
+    },
+    "projectedPoints": 293,
+    "isDrafted": false
+  },
+  {
+    "id": "17",
+    "name": "Julio Rodriguez",
+    "position": "OF",
+    "team": "SEA",
+    "stats": {
+      "battingAverage": 0.275,
+      "homeRuns": 32,
+      "rbi": 103,
+      "stolenBases": 41
+    },
+    "projectedPoints": 338,
+    "isDrafted": false
+  },
+  {
+    "id": "18",
+    "name": "Bo Bichette",
+    "position": "IF",
+    "team": "TOR",
+    "stats": {
+      "battingAverage": 0.306,
+      "homeRuns": 20,
+      "rbi": 73,
+      "stolenBases": 18
+    },
+    "projectedPoints": 277,
+    "isDrafted": false
+  },
+  {
+    "id": "19",
+    "name": "Adley Rutschman",
+    "position": "C",
+    "team": "BAL",
+    "stats": {
+      "battingAverage": 0.254,
+      "homeRuns": 20,
+      "rbi": 80,
+      "stolenBases": 5
+    },
+    "projectedPoints": 215,
+    "isDrafted": false
+  },
+  {
+    "id": "20",
+    "name": "Zack Wheeler",
+    "position": "P",
+    "team": "PHI",
+    "stats": {
+      "era": 3.07,
+      "strikeouts": 212,
+      "wins": 13
+    },
+    "projectedPoints": 283,
+    "isDrafted": false
+  }
+]
+
